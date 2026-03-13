@@ -1,7 +1,7 @@
 import pandas as pd
 import plotly.express as px
 
-df = pd.read_csv("ufo_sightings.csv", low_memory=False)
+df = pd.read_csv("src/ufo_sightings.csv", low_memory=False)
 
 fig = px.scatter_geo(
     df,

@@ -1,7 +1,7 @@
 import pandas as pd
 from matplotlib import pyplot as plt
 
-df = pd.read_csv("ufo_sightings.csv", low_memory=False)
+df = pd.read_csv("src/ufo_sightings.csv", low_memory=False)
 
 shape_counts = df["shape"].value_counts().head(10)
 
